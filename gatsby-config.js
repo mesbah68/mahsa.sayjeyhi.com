@@ -4,14 +4,14 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `SayJeyHi`,
-    siteHeadline: `SayJeyHi`,
+    siteTitle: `Mahsa Mesbah`,
+    siteHeadline: `Mahsa Mesbah`,
     siteDescription: "My personal site to add my projects and demo files",
-    siteTitleAlt: `SayJeyHi - Jafar Rezaei`,
+    siteTitleAlt: `Mahsa Mesbah`,
     siteImage: `/android-icon-192x192.png`,
     siteLanguage: "en",
-    siteUrl: "https://sayjeyhi.com",
-    author: "@sayjeyhi",
+    siteUrl: "https://mahsa.sayjeyhi.com",
+    author: "@mesbah68",
   },
   plugins: [
     {
@@ -39,14 +39,6 @@ module.exports = {
             slug: `/books`,
           },
           {
-            title: `Radio`,
-            slug: `/media-radio`,
-          },
-          {
-            title: `TV`,
-            slug: `/media-tv`,
-          },
-          {
             title: `Certificates`,
             slug: `/certs`,
           },
@@ -58,7 +50,7 @@ module.exports = {
           },
           {
             name: `Github`,
-            url: `https://github.com/sayjeyhi`,
+            url: `https://github.com/mesbah68`,
           },
         ],
       },
@@ -67,8 +59,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `SayJeyHi`,
-        short_name: `SayJeyHi blog`,
+        name: `Mahsa Mesbah`,
+        short_name: `Mahsa Mesbah blog`,
         description: `My personal site to add my projects and demo files`,
         start_url: `/`,
         background_color: `#fff`,
