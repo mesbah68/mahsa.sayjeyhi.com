@@ -38,16 +38,8 @@ module.exports = {
             title: `Books`,
             slug: `/books`,
           },
-          {
-            title: `Certificates`,
-            slug: `/certs`,
-          },
         ],
         externalLinks: [
-          {
-            name: `About me`,
-            url: `/about`,
-          },
           {
             name: `Github`,
             url: `https://github.com/mesbah68`,
